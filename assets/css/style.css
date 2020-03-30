@@ -1,0 +1,41 @@
+div{
+    padding: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    
+}
+#cb{
+    padding-left: 60px;
+}
+#leg1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: cornflowerblue;
+} 
+#leg2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: purple;
+} 
+#leg3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: mediumvioletred;
+}
+
+#section1{
+    background-color: cornflowerblue;       
+}
+#section2{
+    background-color: purple
+}
+#section3{
+    background-color: mediumvioletred;
+}
+
+input[type="radio"]{
+    width:  auto;
+}
+
+    

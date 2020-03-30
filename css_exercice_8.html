@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+ <html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CSS exercice 8</title>
+        <meta name="CSS exercice 8" content="créer 3 formulaires et un bouton">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <h1> CSS Exercice 8</h1>
+       
+       
+    <fieldset id="section1">   
+      <legend id="leg1">Votre identité</legend>   
+        <form  method="post" action="form.php" id="#f1" > <!--le form.php permettra de récupérer les données recues pour les traiter, le dossier est fictif pour cet exercice-->
+           
+           <div>
+               <label for="Nom">1.Nom:</label> <!-- La balise label permet d'attribuer un libemmé à chaque champ du formulaire-->
+               <input type="text" id= "Nom" name="Nom" placeholder="Nom"> <!-- La balise input permet à l'utilisateur d'envoyé des donnés -->
+           </div>
+            <div>
+                <label for="Prenom">2.Prénom :</label>
+                <input type="text" id= "Prénom" name="Prenom" placeholder="Prénom">
+            </div>
+            <div>
+                <label for="mail">3.Adresse mail :</label>
+                <input type="mail" id= "mail" name="mail" placeholder="Adresse mail">
+           </div>
+    </fieldset>
+
+        
+    <fieldset id="section2">
+       <legend id="leg2">Adresse de livraison</legend>
+            
+            <div>
+                <label for="Nom"> 1.Adresse :</label>
+                <textarea name="Adresse"placeholder="adresse"></textarea> <!-- la balise textarea permet de rentrer des donnés plus longues-->
+            </div>
+            <div>
+                <label for="code postal">2.Code postal :</label>
+                <input type="text" id="Code postal" name="Code  postal" placeholder="Code postal">
+            </div>
+            <div>
+                <label for="Ville"> 3.Ville :</label>
+                <input type="text" id="Ville" name="Ville" placeholder="Ville">
+            </div>
+    </fieldset>
+
+    <fieldset id="section3">
+        <legend id="leg3">Informations de réglement</legend>
+        
+            <div>
+                <label for="CB Type"> 1.Type de carte bancaire :</label>
+        
+            </div>
+            
+            <div id="cb">
+                <input type="radio" id="CB Type" name="Visa" value="Visa" > <!--type="radio" permet de mettre un bouton radio pour choisir une option-->
+                <label for="VISA"> VISA</label>
+            </div>  
+
+            <div id="cb">    
+                <input type="radio" id="CB Type" name="Mastercard" value="Mastercard">
+                <label for="Mastercard">Mastercard</label>
+            </div>
+
+            <div>
+                <label for="N°CB"> 2.Numéro de carte :</label>
+                <input type="number" id="N°CB" name="N°CB" placeholder="Numéro de carte">
+            </div>
+
+            <div>
+                <label for="Pin"> 3. Code de sécurité :</label>
+                <input type="number" id="Pin" name="Pin" placeholder="Code de sécurité">
+            </div>
+
+            <div>
+                <label for="owner name"> 4. Nom du titulaire :</label>
+                <input type="texte" id="owner name" name="owner name" placeholder="Nom du titulaire">
+            </div>
+
+           
+    </fieldset>
+        </form>
+        <div>
+            <input type="submit" value="J'achète"> <!-- "submit" permet de mettre un élément sur lequel on peut cliquer-->
+        </div>
+
+
+        
+    </body>
+</html>
